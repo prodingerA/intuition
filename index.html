@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>André Prodinger - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap4/css/mdb.min.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- PreLoader -->
+    <!--Navbar (mobile included)-->
+    <nav class="navbar navbar-expand-sm bg-light fixed-top navbar-light" data-aos="slide-down">
+        <div class="container">
+            <a class="navbar-brand black-text glitchiboi " href="index.html">PORTFOLIO</a>
+            <button id="nav-toggle" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <div id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" id="navbar-home">
+                    <li class="nav-item">
+                        <a class="nav-link black-text glitchiboi" href="#top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text glitchiboi" href="#beginninoflife">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link black-text glitchiboi" href="#contact_jump">CONTACT</a>
+                    </li>
+                </ul>
+                <div id="glitch_darkmode" class="theme-switch-wrapper ml-auto">
+                    <label class="theme-switch" for="darkModeCheck">
+                        <input type="checkbox" id="darkModeCheck" />
+                        <div class="slider round"></div>
+                    </label>
+                    <p class="black-text pl-2" style="padding-top: 14px;">DARKMODE</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Mask for landing page-->
+    <div id="intro" class="view img-fluid">
+        <div class="mask rgba-black-strong">
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-md-10 ">
+                        <h2 class="display-4 font-weight-bold white-text pt-5 mb-2" data-aos="zoom-in">André Prodinger
+                        </h2>
+                    </div>
+                    <div>
+                        <h4>
+                            <a href="" class="typewrite white-text" data-aos="zoom-in" data-period="2000"
+                                data-type='[ "Hi, this is my website.", "I love administering linux servers.", "I Love to develop." ]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h4>
+                        <button class="buttonC">
+                            <a id="contactbutton" class="white-text" href="#contact"><i
+                                    class="fas fa-paper-plane mr-2"></i>CONTACT</a>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- vertical box -->
+    <div id="box-view">
+        <div id="rotatedBox" class="box">
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div id="beginninoflife" class="container cont" style="padding-top:30px">
+        <!-- About me -->
+        <section id="summary" class="text-center my-4" data-aos="fade-in">
+            <div class="row justify-content-center mb-4 ">
+                <h2 class="text-center font-weight-bold my-4" data-aos="fade-down">SHORT SUMMARY ABOUT ME</h2>
+                <div class="col-md-10">
+                    <p class="text-center" style="padding-bottom: 50px;" data-aos="fade-down">Hi, I am André and a more
+                        or less experienced software developer / system administrator and much more. Currently I am
+                        attending the HTL Villach for Information Technology with the main focus on network technology,
+                        so I could already gain some experience in the technical area. Also privately I am very
+                        interested in the field of server administration and therefore I could already gain some
+                        experience with different technologies. So I have often dealt with docker and containerization
+                        and have already put my knowledge into practice. My special strengths are teamwork and the fast
+                        and efficient solution of technical problems.</p>
+                </div>
+                <!--Infobox about my projects-->
+                <div class="row justify-content-center mb-5 col-md-10">
+                    <h2 id="projects" class="py-4" data-aos="fade-in">infobox about GitHub Projects</h2>
+                    <div class="alert alert-info text-center col-md-10" data-aos="fade-in">
+                        <p class="lead needto">portfolio website on GitHub</p>
+                        <p class="needto">-> Implement mobile site</p>
+                        <p class="needto">-> Fix bugs</p>
+                        <p class="needto">-> Add darkmode</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- skills-->
+                <div class="col-md-4 mb-4" data-aos="fade-in">
+                    <i class="fa fa-paper-plane fa-4x"></i>
+                    <h2 class="my-4">PORTFOLIO</h2>
+                    <p>I have decided to build a portfolio website. If I'm going to build a website, it should be at
+                        least half as nice and it should work the same way on smartphones. When I start something, I
+                        always build up a big ambition and I am really exact about details and so on. </p>
+                </div>
+                <!-- my school-->
+                <div class="col-md-4 mb-4 " data-aos="fade-up">
+                    <i class="fas fa-code-branch fa-4x"></i>
+                    <h2 class="my-4">CHARM/BACKEND</h2>
+                    <p>pharmaziegasse/charm-backend is a management system from the beauty website Pharamaziegasse. The
+                        project is part of a diploma thesis where I am allowed to participate. For example I adapt
+                        Pythonfiles so that we can provide it to the user.</p>
+                </div>
+                <!-- My network-->
+                <div class="col-md-4 mb-4" data-aos="fade-in">
+                    <i class="fas fa-network-wired fa-4x"></i>
+                    <h2 class="my-4">EREBOS.XYZ</h2>
+                    <p>erebos.xyz is a network in which I have been an active member for years. We are an independent
+                        private circle of developers with the goal of gaining knowledge. Most of our projects are open
+                        source and/or public. Through this network I was able to establish many important contacts.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Skills-->
+    <div id="skills_sectionbreak" class="img-fluid">
+        <div class="flex-center white-text ">
+            <h2 class=" font-weight-bold white-text">SKILLS I HAVE</h2>
+        </div>
+    </div>
+    <div id="animatedNet" class="undercover-class py-4" style="height: 110%; visibility: hidden;">
+        <div class="container cont placeholder py-4" style="margin-top: 11%;">
+            <section id="spaceholder" class="" date-aos="fade-in">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <i class=""></i>
+                        <h2 class="my-4">NETWORK TECHNOLOGY</h2>
+                        <p>I have been interested in
+                            network technology since I was little. That's why I knew that I would go to the HTL Villach
+                            to turn
+                            my hobby into my profession.
+                            The most distinctive are my Linux server abilities which I try to expand every day.</p>
+                    </div>
+
+                    <div class="col-md-4 mb-4 ">
+                        <i class=""></i>
+                        <h2 class="my-4">VIDEO CUTTING</h2>
+                        <p>I have been editing videos since I was 14 years old. I even had a youtube channel that ran a
+                            few times, but I shut it down because I had no desire and motivation. Maybe I will start
+                            again soon?</p>
+                    </div>
+
+                    <div class="col-md-4 mb-4 ">
+                        <i class=""></i>
+                        <h2 class="my-4">LANGUAGE</h2>
+                        <p>My mother tongue is german but nevertheless I can speak english as well as in written form.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 mb-4 ">
+                        <i class=""></i>
+                        <h2 class="my-4">BOXING</h2>
+                        <p>I started boxing at the end of 2019 and I have to say it was a lot of fun and I would have
+                            continued if it hadn't been for this winter break. I stopped at the beginning of 2020.</p>
+                    </div>
+
+                    <div class="col-md-4 mb-4 ">
+                        <i class=""></i>
+                        <h2 class="my-4">CYCLING</h2>
+                        <p>Since I was 7 years old I have been cycling for my life. I started with about 13 downhill and
+                            I
+                            am still pretty good at it, I am constantly improving.</p>
+                    </div>
+
+                    <div class="col-md-4 mb-4 ">
+                        <i class=""></i>
+                        <h2 class="my-4">GAMING</h2>
+                        <p>At that time I played secretly until 20 o'clock and now I sit in front of my PC and build my
+                            own
+                            website. Nevertheless I still like to play Pubg, Minecraft, CS:GO and many other games.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Sectionbreak-->
+    <div id="about_sectionbreak" class="img-fluid">
+        <div class="flex-center white-text ">
+            <h2 class=" font-weight-bold white-text">WHAT ARE YOU WAITING FOR?</h2>
+        </div>
+    </div>
+    <!--Contact field (with cards)-->
+    <div id="contact_jump" class="container">
+        <section id="contact" class="pt-4 mt-3">
+            <h2 class="font-weight-bold text-center" data-aos="fade-down">CONTACT</h2>
+            <h3 class="text-center" data-aos="fade-down">Only a few clicks ahead</h3>
+            <div class="row mt-5">
+                <!--GitHub-->
+                <div class="col-sm-4  align-items-stretch" data-aos="fade-up">
+                    <div class="card mb-3">
+                        <div class="card-img-top text-center my-3"><i class="fab fa-github fa-3x blue-text"></i></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">GitHub</h4>
+                            <p class="card-text">Overview of projects</p>
+                            <a class=" bouncy btn btn-danger btn-rounded btn-md s-scroll waves-effect waves-light"
+                                href="https://github.com/prodingerA"><i class="fas fa-paper-plane mr-2"></i>Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <!--LinkedIn-->
+                <div class="col-sm-4 align-items-stretch" data-aos="fade-up">
+                    <div class="card mb-3">
+                        <div class="card-img-top text-center my-3"><i class="fab fa-linkedin fa-3x blue-text"></i></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">LinkedIn</h4>
+                            <p class="card-text">Curriculum vitae and skills</p>
+                            <a class=" bouncy3 btn btn-danger btn-rounded btn-md s-scroll waves-effect waves-light"
+                                href="https://www.linkedin.com/in/prodinger-andre/"><i
+                                    class="fas fa-paper-plane mr-2"></i>Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Instagram-->
+                <div class="col-sm-4 align-items-stretch" data-aos="fade-up">
+                    <div class="card mb-3">
+                        <div class="card-img-top text-center my-3"><i class="fab fa-instagram fa-3x blue-text"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Instagram</h4>
+                            <p class="card-text">Photos i made</p>
+                            <a class="bouncy2 btn btn-danger btn-rounded btn-md s-scroll waves-effect waves-light"
+                                href="#contact"><i class="fas fa-paper-plane mr-2"></i>Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-4 col-md-6">
+                    <h3 class="white-text font-weight-bold">WEBSITE</h3>
+                    <ul class="list-unstyled three-column">
+                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#beginninoflife">ABOUT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6" style="margin-bottom: 50px;">
+                    <h3 class="white-text font-weight-bold">LATEST PROJECTS</h3>
+                    <div class="media-body">
+                        <h4 class="media-heading">PORTFOLIO</h4>
+                        <p>I built a portfolio website.</p>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">CHARM/BACKEND</h4>
+                        <p>I participate in this diploma thesis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="white-text font-weight-bold">CONTACT</h3>
+                    <ul class="list-unstyled three-column">
+                        <li><a href="https://github.com/prodingerA">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/prodinger-andre/">LinkedIn</a></li>
+                        <li><a href="#contact">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright Versions GitHub BugReport -->
+        <div class="container-fluid img-fluid pt-3" style="background-color: #1f1e1e;">
+            <div class="copyin text-center"> Copyright &copy; 2019-2020 <span>André Prodinger</span>
+            </div>
+            <div class="text-center">
+                <small class="text-muted">
+                    Stable release
+                    <span class="pl-2 pr-2">·</span>
+                    Version v1.3.1
+                    <span class="pl-2 pr-2 text-white">·</span>
+                    <a class="text-white" href="https://github.com/prodingerA/prodingerA.github.io" rel="noopener noreferrer"
+                        target="_blank">
+                        <i data-test="fa" class="fab fa-github pr-2"></i>
+                        View on GitHub</a>
+                    <span class="pl-2 pr-2 text-white">·</span>
+                    <a class="text-white" href="https://github.com/prodingerA/prodingerA.github.io/issues" rel="noopener noreferrer"
+                        target="_blank">
+                        <i data-test="fa" class="fa fa-bug pr-2"></i>
+                        Report bug
+                    </a>
+                </small>
+            </div>
+            <div class="text-center pb-3">
+                <p class="bold text-white">Made with <i class="fas fa-keyboard white-text"></i> by me.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- CookieAlert -->
+    <div id="cookiealert" class="cookiealert-container text-center mt-3 p-3 shadow" style="visibility:hidden;" data-aos="fade-up">
+        <b>Do you like cookies?</b> <b>&#x1F36A; I use cookies to ensure you get the best experience on my website.</b>
+        <a href="http://cookiesandyou.com/">Learn more</a>
+        <button type="button" class="btn btn-primary btn-md acceptcookies" aria-label="Close">
+            I agree
+        </button>
+    </div>
+    <!-- DarkmodeAlert -->
+    <div id="darkmodealert" class="text-center rounded shadow" style="visibility:hidden;" data-aos="fade-up">
+        
+            <div class="col-md-12">
+        <p class="lead font-weight-bold">Performence Settings</p>
+        <b class="text-muted">Do you want to have the best experience on my website? Then activate darkmode to see all features.</b>
+    </div>
+    <div class="col-md-12">
+        <button type="button" class="btn btn-success btn-md acceptdarkmodealert" aria-label="Close">
+            Activate Darkmode
+        </button>
+        <button type="button" class="btn btn-danger btn-md dontacceptdarkmodealert" aria-label="Close">
+            Cancel
+        </button>
+    </div>
+    
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="javascript/vendor/cookies.js"></script>
+<script src="javascript/vendor/darkmode.js"></script>
+<script src="javascript/vendor/cursor.js"></script>
+<script src="javascript/utils/three.r95.min.js"></script>
+<script src="javascript/utils/vanta.net.min.js"></script>
+
+</html>
